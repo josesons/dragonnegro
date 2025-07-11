@@ -344,7 +344,7 @@ main > [id] {
 }
 
 [id="galeria"] ul { 
-  columns: 12rem; 
+  columns: 12.5rem; 
   gap: 2rem; 
   margin-left: 2rem;
   margin-right: 2rem;
