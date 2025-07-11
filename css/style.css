@@ -345,9 +345,9 @@ main > [id] {
 
 [id="galeria"] ul { 
   columns: 12rem; 
-  gap: 1.25rem; 
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+  gap: 2rem; 
+  margin-left: 2rem;
+  margin-right: 2rem;
   padding: 0;
   width: 100%;
 }
@@ -355,7 +355,7 @@ main > [id] {
 [id="galeria"] li {
   list-style-type: none;
   break-inside: avoid-column; 
-  margin-bottom: 1.25rem; 
+  margin-bottom: 2rem; 
 }
 
 [id="galeria"] img {
