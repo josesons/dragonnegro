@@ -344,10 +344,8 @@ main > [id] {
 }
 
 [id="galeria"] ul { 
-  columns: 300px; 
-  gap: 20px; 
-  margin-left: 20px;
-  margin-right: 20px;
+  columns: 12.5rem; 
+  gap: 2.5rem; 
   padding: 0;
   width: 100%;
 }
@@ -355,7 +353,7 @@ main > [id] {
 [id="galeria"] li {
   list-style-type: none;
   break-inside: avoid-column; 
-  margin-bottom: 20px; 
+  margin-bottom: 2.5rem; 
 }
 
 [id="galeria"] img {
@@ -525,10 +523,6 @@ footer p {
   [id="personalizacion"] {
     height: 100vh;
     justify-content: center
-  }
-
-  [id="galeria"] img {
-    width: 12rem;
   }
 
   /* CAJAS DE CONTACTO */
