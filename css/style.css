@@ -343,24 +343,25 @@ main > [id] {
   font-size: var(--size-text-large);
 }
 
-[id="galeria"] > ul {
-  columns: 12rem;
-  break-inside: avoid;
+[id="galeria"] ul { 
+  columns: 12rem; 
+  gap: 1.875rem; 
   margin-left: 20px;
   margin-right: 20px;
   padding: 0;
-}
-
-[id="galeria"] > ul > li {
-  list-style-type: none;
-}
-
-[id="galeria"] > ul > li > img {
   width: 100%;
+}
+
+[id="galeria"] li {
+  list-style-type: none;
+  break-inside: avoid-column; 
+  margin-bottom: 20px; 
+}
+
+[id="galeria"] img {
+  width: 100%; 
   display: block;
   object-fit: cover;
-  margin-top: 0px;
-  margin-bottom: 20px;
   border: .2rem solid #fe9752a4;
   border-radius: .3rem;
 }
